@@ -1,5 +1,4 @@
-// app/Components/NavBar.tsx
-"use client"; // Mark this file as a client component
+"use client";
 import Link from 'next/link';
 import { FaCartPlus, FaUser } from "react-icons/fa";
 import { MdWatch } from "react-icons/md";
@@ -16,7 +15,6 @@ const NavBar: React.FC = () => {
             <span className="text-lg font-bold">Space X</span>
           </div>
 
-          {/* Navigation Links */}
           <div className="hidden md:flex space-x-12">
             <Link href="#home" className="hover:text-green cursor-pointer">Home</Link>
             <Link href="#about" className="hover:text-green">About</Link>
@@ -25,7 +23,6 @@ const NavBar: React.FC = () => {
             <Link href="#faq" className="hover:text-green">FAQ</Link>
           </div>
 
-          {/* Cart, Watch, and User Icons */}
           <div className="flex space-x-4 mr-4">
             <Link href="#cart" className="hover:text-gray-400 text-green">
               <FaCartPlus size={24} />

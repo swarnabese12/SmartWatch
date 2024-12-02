@@ -19,13 +19,11 @@ export default function FeaturesComponent() {
         <div className="flex flex-col items-center w-full max-w-xs">
           <div className="flex flex-col items-center mb-12 hover:text-green">
             {" "}
-            {/* Reduced margin */}
             <FaGlobe size={26} />
             <span className="mt-2 text-sm">Internet Services</span>
           </div>
           <div className="flex flex-col items-center mb-12 hover:text-green">
             {" "}
-            {/* Reduced margin */}
             <FaBatteryHalf size={26} />
             <span className="mt-2 text-sm">Battery Labs</span>
           </div>
@@ -38,7 +36,6 @@ export default function FeaturesComponent() {
         {/* Second Div: Image in the Center */}
         <div className="mb-4">
           {" "}
-          {/* Adjusted margin */}
           <Image
             src={watchFeatureImg}
             alt="Smartwatch"
@@ -48,17 +45,14 @@ export default function FeaturesComponent() {
           />
         </div>
 
-        {/* Third Div: Icons with Text Below the Image */}
         <div className="flex flex-col items-center w-full max-w-xs">
           <div className="flex flex-col items-center mb-12 hover:text-green">
             {" "}
-            {/* Reduced margin */}
             <FaApple size={26} />
             <span className="mt-2 text-sm">Apple Version</span>
           </div>
           <div className="flex flex-col items-center mb-12 hover:text-green">
             {" "}
-            {/* Reduced margin */}
             <FaCog size={26} />
             <span className="mt-2 text-sm">Settings</span>
           </div>

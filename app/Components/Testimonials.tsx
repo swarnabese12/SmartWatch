@@ -1,4 +1,3 @@
-// components/Testimonials.tsx
 import React from "react";
 import Image from "next/image";
 import men_1 from "./men5.jpg";

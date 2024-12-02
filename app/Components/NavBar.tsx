@@ -9,7 +9,6 @@ const NavBar: React.FC = () => {
     <div>
       <nav className="bg-darkgray text-white">
         <div className="container mx-auto flex justify-between items-center p-4">
-          {/* Logo */}
           <div className="flex items-center ml-4">
             <MdWatch size={24} className="mr-2 text-green" />
             <span className="text-lg font-bold">Space X</span>
